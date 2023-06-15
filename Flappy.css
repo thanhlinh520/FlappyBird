@@ -1,0 +1,52 @@
+body {
+	font-family: Josefin Sans, sans-serif;
+	background-color: #B0C4DE;
+	text-align: center;
+}
+#board {
+	background-image: url('BG.jpg');
+	background-size: cover;
+	width: 800px;
+	height: 400px;
+	border: 6px solid black;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tile {
+	width: 20px;
+	heigh: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.char {
+	background-image: url('Character.png');
+	background-size: cover;
+}
+
+.char1 {
+	background-image: url('Character1.png');
+	background-size: cover;
+}
+
+.char2 {
+	background-image: url('Character2.png');
+	background-size: cover;
+}
+.char3 {
+	background-image: url('Character3.png');
+	background-size: cover;
+}
+.char4 {
+	background-image: url('Character4.png');
+	background-size: cover;
+}
+
+.tunnel {
+	background-image: url('Tunnel.png');
+	background-size: cover;
+}
